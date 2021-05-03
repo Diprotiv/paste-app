@@ -17,8 +17,9 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class Paste {
     private String pasteId;
+    private String userId;
     private String data;
-    private Long timeToLive;
     private LocalDateTime creationTimestamp;
     private LocalDateTime updatedTimestamp;
+    private LocalDateTime expirationTimestamp;
 }
